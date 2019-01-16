@@ -7,16 +7,19 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('JavaScript Loaded');
 
 
-  const dataCollection = new Countries
-  dataCollection.getData();
+  ;
 
   const selector = document.querySelector('#countries')
   const dataTransfer = new ViewCountries(selector)
   dataTransfer.bindEvent();
 
-  dataCollection.bindEvent();
+  
 
   const space = document.querySelector('#country')
   const view = new RenderCountryInfo(space)
   view.bindEvent();
+
+  const dataCollection = new Countries
+  dataCollection.getData()
+  dataCollection.bindEvent();
 });
