@@ -1,0 +1,19 @@
+body{
+  background-image: url('https://cdn2.vectorstock.com/i/1000x1000/12/81/map-of-the-world-on-blur-background-vector-4681281.jpg');
+}
+
+img {
+  height: 150px;
+  width: 200px;
+}
+
+#country{
+text-align: center;
+color: white;
+}
+
+a{
+  height: 50px;
+  width: 100px;
+  color: white;
+}
